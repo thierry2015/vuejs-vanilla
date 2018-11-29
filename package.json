@@ -1,0 +1,52 @@
+{
+  "name": "vuejs-vanilla",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "http-server",
+    "serve": "npm start",
+    "dev": "npm run development",
+    "dev-local": "npm run development-local",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "development-local": "cross-env NODE_ENV=development-local node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "watch-local": "npm run development-local -- --watch",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "dependencies": {
+    "axios": "^0.18",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thierry2015/vuejs-vanilla.git"
+  },
+  "keywords": [
+    "vuejs",
+    "vanilla",
+    "laravel-mix",
+    "spa",
+    "pwa"
+  ],
+  "author": {
+    "name": "Thierry Parent",
+    "email": "contact@thieryparent.ca"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thierry2015/vuejs-vanilla/issues"
+  },
+  "homepage": "https://github.com/thierry2015/vuejs-vanilla#readme",
+  "devDependencies": {
+    "cross-env": "^5.1",
+    "http-server": "^0.11.1",
+    "laravel-mix": "2.1.11"
+  }
+}
