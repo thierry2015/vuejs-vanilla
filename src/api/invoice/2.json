@@ -1,0 +1,36 @@
+{
+	"id": "2",
+	"subtotal": 16.21,
+	"taxes": 2.56,
+	"total": 18.77,
+	"billable": {
+		"name": "June Nicholson",
+		"address": "1234 Lorem St.",
+		"phone": "1-800-555-1234",
+		"email": "jnicholson@test.com"
+	},
+	"lines": [
+		{
+			"id": "2-1",
+			"description": "A first line",
+			"unit_price": 1.23,
+			"quantity": 1,
+			"line_total": 1.23
+		},
+		{
+			"id": "2-2",
+			"description": "A second line",
+			"unit_price": 1.23,
+			"quantity": 1,
+			"line_total": 1.23
+		},
+		{
+			"id": "2-3",
+			"description": "A third line",
+			"unit_price": 13.75,
+			"quantity": 1,
+			"line_total": 13.75
+		}
+	],
+	"created_at": "2018-10-14 10:11:12"
+}

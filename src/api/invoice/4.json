@@ -1,0 +1,37 @@
+,
+{
+	"id": "4",
+	"subtotal": 327.19,
+	"taxes": 73.52,
+	"total": 400.71,
+	"billable": {
+		"name": "Reyna Dillon",
+		"address": "1234 Lorem St.",
+		"phone": "1-800-555-1234",
+		"email": "rdillon@test.com"
+	},
+	"lines": [
+		{
+			"id": "4-1",
+			"description": "A first line",
+			"unit_price": 1.23,
+			"quantity": 1,
+			"line_total": 1.23
+		},
+		{
+			"id": "4-2",
+			"description": "A second line",
+			"unit_price": 1.23,
+			"quantity": 1,
+			"line_total": 1.23
+		},
+		{
+			"id": "4-3",
+			"description": "A third line",
+			"unit_price": 324.73,
+			"quantity": 1,
+			"line_total": 324.73
+		}
+	],
+	"created_at": "2018-11-01 10:11:12"
+}
